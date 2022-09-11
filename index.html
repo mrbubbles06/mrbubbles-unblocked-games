@@ -1,38 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-    <link rel="stylesheet" href="/games/slope/TemplateData/style.css">
-    <script src="/games/slope/TemplateData/UnityProgress.js"></script>
-    <script src="/games/slope/TemplateData/unityloader41.js"></script>
-    <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "/games/slope/Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
-    </script>
-    <style>
-        .alert {
-          padding: 20px;
-          background-color: #04AA6D;
-          color: white;
-        }
-
-        .closebtn {
-          margin-left: 15px;
-          color: white;
-          p {text-align: center;}  
-          font-weight: bold;
-          float: right;
-          font-size: 22px;
-          line-height: 20px;
-          cursor: pointer;
-          transition: 0.3s;
-        }
-
-        .closebtn:hover {
-          color: black;
-        }
-    </style>
+  <title>mrbubbles' unblocked games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="styles/globals.css">
+  <link rel="icon" href="public/favicon.ico">
+  <script src="javascript/sneakyTitle.js"></script>
+  <script src="javascript/darkLight.js"></script>
 </head>
-
-<body style="margin: 0; overflow: hidden;">
-    <div class="webgl-content">
-        <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
+<body>
+  <main>
+    <h1>mrbubbles' unblocked games</h1>
+    <p>do you prefer <code class="darkmodeswitch">dark mode?</code></p>
+    <div class="gamelist">
+      <ul>
+        <li><a href="slope.html">slope game</a></li>
+        <li><a href="#">placeholder</a></li>
+        <li><a href="#">placeholder</a></li>
+        <li><a href="#">placeholder</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">placeholder</a></li>
+        <li><a href="#">placeholder</a></li>
+        <li><a href="#">placeholder</a></li>
+        <li><a href="#">placeholder</a></li>
+      </ul>
     </div>
+  </main>
 </body>
-<!-- Slope game by y8 games, not me.-->
+</html>
