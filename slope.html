@@ -1,8 +1,11 @@
 <head>
+    <meta charset="utf-8">
+    <title>slope - mrbubbles' unblocked games</title>
     <link rel="stylesheet" href="/games/slope/TemplateData/style.css">
     <link rel="stylesheet" href="/styles/gamepage.css">
     <script src="/games/slope/TemplateData/UnityProgress.js"></script>
     <script src="/games/slope/TemplateData/unityloader41.js"></script>
+    <script src="javascript/sneakyTitle.js"></script>
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "/games/slope/Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
     </script>
@@ -30,11 +33,9 @@
         }
     </style>
 </head>
-
 <body style="margin: 0; overflow: hidden;">
     <a class="button" href="/index.html">back</a>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
     </div>
 </body>
-<!-- Slope game by y8 games, not me.-->
