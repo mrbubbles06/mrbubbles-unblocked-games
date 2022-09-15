@@ -44,7 +44,7 @@ code {
   transition: background 500ms;
 }
 
-ul {
+ul.gamelist {
   display: inline-block;
   list-style: outside none;
   padding: 0;
@@ -53,6 +53,7 @@ ul {
 li {
   margin-bottom: 1em;
 }
+
 div.gamelist {
   display: flex;
   justify-content: space-between;
