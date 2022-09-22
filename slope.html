@@ -1,41 +1,15 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>slope - mrbubbles' unblocked games</title>
-    <link rel="stylesheet" href="/games/slope/TemplateData/style.css">
-    <link rel="stylesheet" href="/styles/gamepage.css">
-    <script src="/games/slope/TemplateData/UnityProgress.js"></script>
-    <script src="/games/slope/TemplateData/unityloader41.js"></script>
-    <script src="javascript/sneakyTitle.js"></script>
-    <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "/games/slope/Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
-    </script>
-    <style>
-        .alert {
-          padding: 20px;
-          background-color: #04AA6D;
-          color: white;
-        }
-
-        .closebtn {
-          margin-left: 15px;
-          color: white;
-          p {text-align: center;}  
-          font-weight: bold;
-          float: right;
-          font-size: 22px;
-          line-height: 20px;
-          cursor: pointer;
-          transition: 0.3s;
-        }
-
-        .closebtn:hover {
-          color: black;
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="/javascript/sneakyTitle.js"></script>
+  <link rel="icon" href="public/favicon.ico">
+  <link rel="stylesheet" href="/styles/gamepage.css">
+	<title>slope - mrbubbles' unblocked games</title>
 </head>
-<body style="margin: 0; overflow: hidden;">
-    <a class="button" href="/index.html">back</a>
-    <div class="webgl-content">
-        <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
-    </div>
+<body>
+  <a class="button" href="/index.html">back</a>
+  <iframe style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;" src="/games/slope/slopesrc.html"></iframe>
 </body>
+</html>
