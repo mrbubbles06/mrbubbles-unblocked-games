@@ -8,5 +8,3 @@ just a website
 * vex (any of them) - y8
 * pole riders - foddy
 * moto x3m - coolmathgames
-
-* get run 3 working
