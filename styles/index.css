@@ -1,0 +1,75 @@
+body {
+  background-color: #121212;
+  color: white;
+  font-family: 'Roboto mono';
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.header-title {
+  display: flex;
+  justify-content: baseline;
+}
+
+.header-nav {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.header-nav a {
+  transition: all 0.25s ease-in-out;
+}
+
+.header-nav a:hover {
+  color: lightpink;
+  text-decoration: underline lightpink;
+  font-size: 1.25em;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column::before, .column::after {
+  opacity: 0.3;
+  color: white;
+  display: block;
+  margin-left: -35px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.column::before {
+  content: '<code>';
+  margin-bottom: 5px;
+}
+
+.column::after {
+  content: '</code>';
+  margin-top: 5px;
+}
+
+.blink {
+  animation: blinker 1.5s infinite;
+  -webkit-animation-timing-function: steps(1, end);
+  -moz-animation-timing-function: steps(1, end);
+  -ms-animation-timing-function: steps(1, end);
+  -o-animation-timing-function: steps(1, end);
+  animation-timing-function: steps(1, end);
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
