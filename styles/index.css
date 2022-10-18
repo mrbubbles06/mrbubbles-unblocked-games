@@ -47,6 +47,11 @@ header {
   font-size: 1.25em;
 }
 
+.sticky {
+  position: fixed;
+  top: 15px;
+}
+
 main {
   flex-grow: 1;
 }
