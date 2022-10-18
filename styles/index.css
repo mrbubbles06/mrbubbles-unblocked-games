@@ -8,12 +8,18 @@ body {
   background-color: #121212;
   color: white;
   font-family: 'Roboto mono';
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   display: flex;
   align-items: center;
   align-content: center;
+  margin: 15px;
 }
 
 .header-title {
@@ -31,6 +37,8 @@ header {
   color: white;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .header-nav a:hover {
@@ -39,10 +47,14 @@ header {
   font-size: 1.25em;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .code {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 50px;
   padding-left: 10%;
   padding-right: 10%;
@@ -82,7 +94,8 @@ header {
 footer {
   display: flex;
   justify-content: left;
-  padding: 5px;
+  margin-left: 15px;
+  margin-top: auto;
 }
 
 .blink {
