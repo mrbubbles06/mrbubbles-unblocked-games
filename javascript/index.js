@@ -21,5 +21,7 @@ sticky = navbar.offsetTop;
 }
 
 function hamBar(x) {
+  var links = document.getElementById("mobile-links");
   x.classList.toggle("change");
+  links.classList.toggle("visible");
 }

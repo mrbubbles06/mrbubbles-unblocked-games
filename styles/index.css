@@ -51,6 +51,14 @@ header {
   display: none;
 }
 
+.mobile-links {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
 .ham-button {
   display: inline-block;
   cursor: pointer;
