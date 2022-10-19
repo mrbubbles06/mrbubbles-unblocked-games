@@ -11,17 +11,19 @@ function stickySet() {
   }
 }
 
+var sticky = 40;
+
 window.onload = function() {
 // Get the navbar
 navbar = document.getElementById("nav");
 header = document.getElementById("header");
-
-// Get the offset position of the navbar
-sticky = navbar.offsetTop;
 }
 
 function hamBar(x) {
   var links = document.getElementById("mobile-links");
   x.classList.toggle("change");
   links.classList.toggle("visible");
+  setTimeout(function() {
+    links.classList.toggle("penis");
+  }, 1);
 }

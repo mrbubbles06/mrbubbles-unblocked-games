@@ -55,16 +55,57 @@ header {
   display: none;
 }
 
+.mobile-links a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.125s ease-in-out;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.mobile-links a:hover {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
 .visible {
   display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 45px;
+  right: 0;
+  align-items: flex-end;
+  padding-right: 12px;
+}
+
+.mobile-links::after{
+  content: '';
+  display: block;
+  width: 2px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: -2px;
+  background-color: white;
+  transition: all .5s ease;
+}
+
+.mobile-links.penis::after{
+  height: 112%;
+  background-color: white;
 }
 
 .ham-button {
   display: inline-block;
   cursor: pointer;
+  position: inherit;
+  right: 0;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1, .bar3 {
   width: 35px;
   height: 5px;
   background-color: rgb(255, 255, 255);
@@ -74,7 +115,7 @@ header {
 
 /* Rotate first bar */
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+  transform: translate(0, 5px) rotate(-45deg);
 }
 
 /* Fade out the second bar */
@@ -82,7 +123,11 @@ header {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+  transform: translate(0, -6px) rotate(45deg);
+}
+
+.change .ham-button {
+  top: 5px;
 }
 
 .sticky {
@@ -174,7 +219,7 @@ footer {
   .mobile-nav {
     display: block;
     position: absolute;
-    right: 15px;
-    margin: 15px;
+    right: 30px;
+    top: 37px;
   }
 }
