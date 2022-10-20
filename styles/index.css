@@ -58,11 +58,13 @@ header {
 .mobile-links a {
   color: white;
   text-decoration: none;
+  /* margin-bottom: 25px; */
   transition: all 0.125s ease-in-out;
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  padding: 10px;
 }
 
 .mobile-links a:hover {
@@ -94,7 +96,7 @@ header {
 }
 
 .mobile-links.penis::after{
-  height: 112%;
+  height: calc(100%);
   background-color: white;
 }
 
