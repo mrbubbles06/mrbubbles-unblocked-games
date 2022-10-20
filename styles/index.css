@@ -39,7 +39,6 @@ header {
   text-decoration: none;
   transition: all 0.25s ease-in-out;
   margin-right: 5px;
-  margin-left: 5px;
   counter-increment: links;
 }
 
