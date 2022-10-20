@@ -80,6 +80,7 @@ header {
   right: 0;
   align-items: flex-end;
   padding-right: 12px;
+  background-color: #121212;
 }
 
 .mobile-links::after{
