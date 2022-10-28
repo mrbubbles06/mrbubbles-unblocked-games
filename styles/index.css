@@ -52,7 +52,7 @@ header {
 }
 
 .header-nav a:hover {
-  color: lightpink;
+  color: #ffb6c1;
   text-decoration: underline lightpink;
   font-size: 1.25em;
 }
@@ -153,9 +153,14 @@ header {
   top: 5px;
 }
 
-
 main {
   flex-grow: 1;
+}
+
+.support-btn {
+  display: flex;
+  justify-content: center;
+
 }
 
 .code {
