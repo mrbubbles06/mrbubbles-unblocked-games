@@ -157,12 +157,6 @@ main {
   flex-grow: 1;
 }
 
-.support-btn {
-  display: flex;
-  justify-content: center;
-
-}
-
 .code {
   width: 100%;
   display: flex;
@@ -208,6 +202,18 @@ footer {
   justify-content: left;
   margin-left: 15px;
   margin-top: auto;
+}
+
+.support {
+  margin: 16px 0;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.support:hover {
+  text-decoration: underline;
 }
 
 .blink {
