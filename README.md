@@ -1,10 +1,9 @@
 # mrbubbles.dev
 
-just a website
+[![Buy Me a Coffee](https://img.shields.io/badge/support-me-%23ffb6c1)](https://www.buymeacoffee.com/mrbubbles)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/mrbubbles06/mrbubbles.dev)](https://github.com/mrbubbles06/mrbubbles.dev)
 
+developer portfolio.
 
-## todo:
-* bartender game - y8
-* vex (any of them) - y8
-* pole riders - foddy
-* moto x3m - coolmathgames
+check out my other projects:
+- [alg calc](https://github.com/mrbubbles06/alg-calc)
