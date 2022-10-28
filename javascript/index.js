@@ -20,19 +20,6 @@ window.onload = function() {
 // Get the navbar
 navbar = document.getElementById("nav");
 header = document.getElementById("header");
-
-var pageTitle = document.title;
-var altTitle = 'mrbubbles_'
-
-setInterval(function() {
-  if (document.title == 'mrbubbles') {
-      document.title = altTitle;
-      console.log('boobs');
-  } else {
-      document.title = pageTitle;
-  }
-}, 1500)
-
 }
 
 function hamBar(x) {
